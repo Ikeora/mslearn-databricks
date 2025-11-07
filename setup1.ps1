@@ -43,7 +43,7 @@ foreach ($provider in $provider_list) {
 $supported_regions = @(
     "canadacentral","canadaeast",
     "eastus","eastus2","westus","westus2","centralus","northcentralus","southcentralus",
-    "westeurope","northeurope","uksouth"
+    "westeurope","northeurope"
 )
 
 Write-Host "Preparing to deploy. This may take several minutes..."
